@@ -57,11 +57,11 @@ Section_E/
 * ACID Properties
 
 ##Brief Insights
-*Designed a relational database with four interconnected tables.
-*Applied SQL filtering, sorting, and aggregation techniques to analyze data.
-*Used joins to retrieve related information across multiple tables.
-*Implemented transactions to maintain data integrity.
-*Learned the importance of indexes and ACID properties in database management.
+* Designed a relational database with four interconnected tables.
+* Applied SQL filtering, sorting, and aggregation techniques to analyze data.
+* Used joins to retrieve related information across multiple tables.
+* Implemented transactions to maintain data integrity.
+* Learned the importance of indexes and ACID properties in database management.
 
 ## Author
 
