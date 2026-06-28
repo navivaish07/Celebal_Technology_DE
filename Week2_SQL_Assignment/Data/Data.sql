@@ -1,4 +1,4 @@
-BEGIN TRANSACTION;
+
 CREATE TABLE IF NOT EXISTS "customers" (
 	"customer_id"	INT,
 	"first_name"	VARCHAR(50) NOT NULL,
@@ -95,4 +95,3 @@ CREATE INDEX IF NOT EXISTS "idx_orders_status" ON "orders" (
 CREATE INDEX IF NOT EXISTS "idx_products_category" ON "products" (
 	"category"
 );
-COMMIT;
