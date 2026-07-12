@@ -1,0 +1,16 @@
+Order_ID,Customer_ID,Customer_Name,Product,Category,Quantity,Unit_Price,Order_Date,City,Payment_Method
+ORD001,C101,Aarav Sharma,Laptop,Electronics,1,65000,2026-07-01,Pune,Credit Card
+ORD002,C102,Priya Patel,Smartphone,Electronics,2,28000,2026-07-02,Mumbai,UPI
+ORD003,C103,Rohan Verma,Office Chair,Furniture,1,8500,2026-07-03,Delhi,Debit Card
+ORD004,C104,Ananya Singh,Wireless Mouse,Accessories,3,900,2026-07-03,Hyderabad,Cash
+ORD005,C105,Vikram Joshi,Keyboard,Accessories,2,1500,2026-07-04,Nagpur,UPI
+ORD006,C106,Neha Kulkarni,Monitor,Electronics,1,14500,2026-07-05,Nashik,Credit Card
+ORD007,C107,Aditya Rao,Study Table,Furniture,1,7200,2026-07-05,Bengaluru,Debit Card
+ORD008,C108,Sneha Mehta,Printer,Electronics,1,9800,2026-07-06,Ahmedabad,UPI
+ORD009,C109,Karan Gupta,USB Drive,Accessories,5,650,2026-07-06,Jaipur,Cash
+ORD010,C110,Isha Nair,Bookshelf,Furniture,1,5400,2026-07-07,Kochi,Credit Card
+ORD011,C111,Rahul Deshmukh,Headphones,Electronics,2,3200,2026-07-07,Pune,UPI
+ORD012,C112,Pooja Jain,Desk Lamp,Accessories,4,850,2026-07-08,Indore,Debit Card
+ORD013,C113,Arjun Kapoor,Tablet,Electronics,1,22000,2026-07-08,Chandigarh,Credit Card
+ORD014,C114,Kavya Reddy,Books,Furniture,6,450,2026-07-09,Hyderabad,Cash
+ORD015,C115,Manish Yadav,External HDD,Electronics,2,5200,2026-07-10,Lucknow,UPI
