@@ -1,0 +1,5 @@
+Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+1,CA-2016-152156,08-11-2016,11-11-2016,Second Class,CG-12520,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,FUR-BO-10001798,Furniture,Bookcases,Updated Bookcase,300.0,2,0.1,50.0
+2,CA-2016-152156,08-11-2016,11-11-2016,Second Class,CG-12520,Claire Gute,Consumer,United States,Henderson,Kentucky,42420,South,FUR-CH-10000454,Furniture,Chairs,Updated Chair,500.0,3,0.0,80.0
+10000,CA-2026-999999,01-08-2026,03-08-2026,Standard Class,VD-10001,Vaishnavi Dhanwate,Corporate,India,Pune,Maharashtra,411001,West,TEC-NEW-001,Technology,Accessories,Wireless Mouse,1200.0,5,0.05,300.0
+10001,CA-2026-999998,01-08-2026,03-08-2026,First Class,VD-10002,Test Customer,Consumer,India,Mumbai,Maharashtra,400001,West,OFF-NEW-002,Office Supplies,Paper,Notebook,250.0,10,0.0,60.0
