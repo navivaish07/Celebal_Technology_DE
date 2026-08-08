@@ -1,0 +1,261 @@
+product_id,product_name,category,subcategory,cost_price
+1,Kitchen magazine,Home,Kitchen,114.82
+2,Kids new,Clothing,Kids,315.24
+3,Wearables hand,Electronics,Wearables,292.89
+4,Learning rest,Toys,Learning,305.65
+5,Furniture successful,Home,Furniture,206.54
+6,Decor test,Home,Decor,11.43
+7,Furniture outside,Home,Furniture,357.59
+8,Fiction would,Books,Fiction,212.36
+9,Action door,Toys,Action,135.81
+10,  ACTION CHOICE  ,Toys,Action,121.42
+11,Decor city,Home,Decor,96.78
+12,Audio thought,Electronics,Audio,27.13
+13,Decor sister,Home,Decor,50.89
+14,Outdoor kind,Toys,Outdoor,279.75
+15,  KITCHEN PLACE  ,Home,Kitchen,56.86
+16,Audio use,Electronics,Audio,36.96
+17,Outdoor happy,Toys,Outdoor,21.37
+18,Education but,Books,Education,341.61
+19,Furniture recognize,Home,Furniture,252.75
+20,Fiction safe,Books,Fiction,189.52
+21,Women now,Clothing,Women,443.37
+22,Kids space,Clothing,Kids,26.73
+23,Education during,Books,Education,217.71
+24,Men happy,Clothing,Men,352.51
+25,Women agree,Clothing,Women,433.69
+26,Education network,Books,Education,96.47
+27,Kids focus,Clothing,Kids,399.51
+28,Women market,Clothing,Women,164.94
+29,Audio step,Electronics,Audio,303.16
+30,Decor task,Home,Decor,156.38
+31,Computers condition,Electronics,Computers,54.49
+32,Action wide,Toys,Action,211.47
+33,Kitchen discuss,Home,Kitchen,91.41
+34,  DECOR MOST  ,Home,Decor,292.79
+35,Kitchen low,Home,Kitchen,84.2
+36,Furniture Effect  ,Home,Furniture,65.21
+37,Decor Record  ,Home,Decor,382.14
+38,Kids seek,Clothing,Kids,287.64
+39,Computers test,Electronics,Computers,207.16
+40,Audio current,Electronics,Audio,120.0
+41,Fiction threat,Books,Fiction,131.36
+42,Kids seat,Clothing,Kids,26.07
+43,Computers top,Electronics,Computers,45.08
+44,Kids home,Clothing,Kids,245.4
+45,Computers hard,Electronics,Computers,283.62
+46,Kitchen value,Home,Kitchen,440.52
+47,Education dream,Books,Education,336.93
+48,Men for,Clothing,Men,305.87
+49,Education discover,Books,Education,195.88
+50,Furniture candidate,Home,Furniture,422.27
+51,Outdoor care,Toys,Outdoor,359.94
+52,Action see,Toys,Action,399.69
+53,Computers talk,Electronics,Computers,308.57
+54,Action heavy,Toys,Action,391.08
+55,Nonfiction Glass  ,Books,Nonfiction,388.64
+56,  COMPUTERS REVEAL  ,Electronics,Computers,292.18
+57,Kitchen throughout,Home,Kitchen,309.81
+58,Audio prevent,Electronics,Audio,239.75
+59,Kitchen whose,Home,Kitchen,362.16
+60,Men any,Clothing,Men,139.19
+61,Furniture control,Home,Furniture,370.41
+62,Learning sound,Toys,Learning,181.46
+63,Kitchen catch,Home,Kitchen,333.61
+64,Outdoor carry,Toys,Outdoor,121.5
+65,Decor owner,Home,Decor,399.82
+66,  DECOR MODEL  ,Home,Decor,124.25
+67,Computers moment,Electronics,Computers,326.2
+68,Women relate,Clothing,Women,212.6
+69,Fiction weight,Books,Fiction,385.24
+70,  DECOR LIGHT  ,Home,Decor,375.95
+71,Nonfiction partner,Books,Nonfiction,34.95
+72,Education listen,Books,Education,336.41
+73,Fiction Idea  ,Books,Fiction,58.03
+74,Wearables gun,Electronics,Wearables,114.98
+75,Decor into,Home,Decor,427.38
+76,Decor tree,Home,Decor,11.02
+77,Kitchen west,Home,Kitchen,126.84
+78,Nonfiction hope,Books,Nonfiction,235.41
+79,Wearables Sell  ,Electronics,Wearables,181.95
+80,Women hold,Clothing,Women,280.07
+81,Education financial,Books,Education,333.69
+82,  AUDIO LOT  ,Electronics,Audio,323.68
+83,  DECOR SCIENCE  ,Home,Decor,27.85
+84,Wearables Congress,Electronics,Wearables,202.44
+85,Audio commercial,Electronics,Audio,269.49
+86,Fiction responsibility,Books,Fiction,22.26
+87,Fiction statement,Books,Fiction,143.74
+88,Learning health,Toys,Learning,240.44
+89,Computers lead,Electronics,Computers,182.91
+90,Audio send,Electronics,Audio,111.04
+91,  AUDIO MAGAZINE  ,Electronics,Audio,232.71
+92,Audio cell,Electronics,Audio,7.5
+93,Men bed,Clothing,Men,142.66
+94,Fiction nature,Books,Fiction,434.03
+95,Nonfiction Light  ,Books,Nonfiction,84.34
+96,Action nation,Toys,Action,41.36
+97,Women quite,Clothing,Women,232.48
+98,Audio treatment,Electronics,Audio,388.71
+99,  NONFICTION MOMENT  ,Books,Nonfiction,227.0
+100,Kids traditional,Clothing,Kids,80.45
+101,Outdoor Age  ,Toys,Outdoor,89.67
+102,Fiction audience,Books,Fiction,445.51
+103,Wearables which,Electronics,Wearables,168.67
+104,Audio carry,Electronics,Audio,387.75
+105,  OUTDOOR THOUGHT  ,Toys,Outdoor,222.58
+106,Wearables hot,Electronics,Wearables,371.56
+107,Furniture stock,Home,Furniture,144.76
+108,Nonfiction artist,Books,Nonfiction,107.27
+109,Kitchen you,Home,Kitchen,189.63
+110,Action clear,Toys,Action,367.02
+111,Learning throughout,Toys,Learning,249.23
+112,Audio pattern,Electronics,Audio,207.56
+113,Women perform,Clothing,Women,367.39
+114,Nonfiction dark,Books,Nonfiction,235.03
+115,Kids Support  ,Clothing,Kids,277.23
+116,Men size,Clothing,Men,402.46
+117,Kids set,Clothing,Kids,73.68
+118,Men decide,Clothing,Men,65.54
+119,Kids understand,Clothing,Kids,212.85
+120,Wearables front,Electronics,Wearables,287.01
+121,Kitchen book,Home,Kitchen,395.28
+122,Wearables letter,Electronics,Wearables,266.64
+123,  LEARNING MEET  ,Toys,Learning,58.61
+124,Action hundred,Toys,Action,108.83
+125,Women not,Clothing,Women,175.92
+126,Decor like,Home,Decor,425.86
+127,Education feel,Books,Education,362.82
+128,Nonfiction him,Books,Nonfiction,291.12
+129,Men same,Clothing,Men,266.72
+130,Audio Then  ,Electronics,Audio,158.73
+131,  COMPUTERS IF  ,Electronics,Computers,99.91
+132,Education girl,Books,Education,272.63
+133,Kitchen the,Home,Kitchen,61.28
+134,Furniture prove,Home,Furniture,387.61
+135,Audio someone,Electronics,Audio,424.73
+136,Kitchen Agree  ,Home,Kitchen,362.5
+137,Fiction apply,Books,Fiction,325.08
+138,Wearables because,Electronics,Wearables,394.79
+139,Fiction newspaper,Books,Fiction,60.15
+140,Kitchen happy,Home,Kitchen,167.83
+141,Nonfiction daughter,Books,Nonfiction,20.73
+142,Outdoor partner,Toys,Outdoor,247.69
+143,Computers media,Electronics,Computers,53.2
+144,Audio how,Electronics,Audio,284.22
+145,Audio politics,Electronics,Audio,5.78
+146,Computers sing,Electronics,Computers,5.83
+147,Audio policy,Electronics,Audio,404.06
+148,Outdoor open,Toys,Outdoor,56.98
+149,Action behind,Toys,Action,257.49
+150,Action share,Toys,Action,446.03
+151,Education sign,Books,Education,372.63
+152,Kitchen budget,Home,Kitchen,407.46
+153,Men out,Clothing,Men,101.16
+154,Outdoor become,Toys,Outdoor,96.12
+155,Learning program,Toys,Learning,25.51
+156,Computers attack,Electronics,Computers,81.26
+157,Education scientist,Books,Education,132.66
+158,  WOMEN COUNTRY  ,Clothing,Women,124.68
+159,Wearables make,Electronics,Wearables,278.3
+160,Nonfiction phone,Books,Nonfiction,286.54
+161,Nonfiction Perform  ,Books,Nonfiction,414.63
+162,Fiction democratic,Books,Fiction,106.26
+163,Wearables benefit,Electronics,Wearables,14.42
+164,Learning production,Toys,Learning,206.75
+165,  LEARNING GROW  ,Toys,Learning,314.7
+166,Men eat,Clothing,Men,417.29
+167,Action big,Toys,Action,380.67
+168,Fiction Sport  ,Books,Fiction,272.13
+169,Furniture candidate,Home,Furniture,373.79
+170,Kitchen difficult,Home,Kitchen,209.51
+171,Computers amount,Electronics,Computers,113.65
+172,Women house,Clothing,Women,306.67
+173,Computers thought,Electronics,Computers,229.2
+174,Nonfiction Manage  ,Books,Nonfiction,248.07
+175,Education boy,Books,Education,24.79
+176,Kids marriage,Clothing,Kids,363.65
+177,Wearables none,Electronics,Wearables,399.16
+178,Education join,Books,Education,328.07
+179,  LEARNING HOLD  ,Toys,Learning,351.39
+180,Outdoor quickly,Toys,Outdoor,186.39
+181,Audio should,Electronics,Audio,231.7
+182,Men sell,Clothing,Men,384.5
+183,Audio information,Electronics,Audio,362.48
+184,Action building,Toys,Action,237.0
+185,Kitchen anyone,Home,Kitchen,234.83
+186,Wearables area,Electronics,Wearables,439.13
+187,Women imagine,Clothing,Women,101.7
+188,Nonfiction laugh,Books,Nonfiction,420.91
+189,Nonfiction crime,Books,Nonfiction,284.48
+190,Computers who,Electronics,Computers,406.78
+191,Education similar,Books,Education,132.5
+192,Kitchen decide,Home,Kitchen,343.04
+193,Furniture energy,Home,Furniture,356.53
+194,  NONFICTION THIRD  ,Books,Nonfiction,81.66
+195,Outdoor fear,Toys,Outdoor,359.95
+196,Men Former  ,Clothing,Men,318.95
+197,Learning group,Toys,Learning,74.92
+198,Women bar,Clothing,Women,102.91
+199,Men term,Clothing,Men,256.6
+200,Fiction cultural,Books,Fiction,17.24
+201,Kids reveal,Clothing,Kids,280.85
+202,Kids local,Clothing,Kids,223.46
+203,Women spring,Clothing,Women,147.93
+204,Outdoor coach,Toys,Outdoor,48.4
+205,Fiction answer,Books,Fiction,71.95
+206,Wearables dark,Electronics,Wearables,325.11
+207,Kitchen agreement,Home,Kitchen,36.47
+208,Furniture usually,Home,Furniture,341.15
+209,Fiction catch,Books,Fiction,259.85
+210,Decor enjoy,Home,Decor,151.45
+211,Audio century,Electronics,Audio,124.45
+212,  LEARNING GLASS  ,Toys,Learning,57.06
+213,Audio standard,Electronics,Audio,110.96
+214,Furniture Maybe  ,Home,Furniture,17.95
+215,Women anyone,Clothing,Women,407.06
+216,Learning national,Toys,Learning,351.36
+217,Learning Top  ,Toys,Learning,36.32
+218,Wearables wife,Electronics,Wearables,409.25
+219,Decor little,Home,Decor,132.14
+220,Furniture teacher,Home,Furniture,168.12
+221,Furniture feeling,Home,Furniture,302.81
+222,Outdoor admit,Toys,Outdoor,342.05
+223,Wearables market,Electronics,Wearables,134.38
+224,Wearables enough,Electronics,Wearables,377.41
+225,Wearables admit,Electronics,Wearables,282.67
+226,Computers light,Electronics,Computers,152.37
+227,Computers old,Electronics,Computers,221.12
+228,Men seem,Clothing,Men,292.36
+229,Education may,Books,Education,447.55
+230,Education course,Books,Education,425.98
+231,Women myself,Clothing,Women,123.16
+232,Action card,Toys,Action,123.85
+233,  OUTDOOR TWO  ,Toys,Outdoor,167.6
+234,Furniture option,Home,Furniture,349.27
+235,Kitchen surface,Home,Kitchen,148.8
+236,Fiction from,Books,Fiction,362.69
+237,Education throughout,Books,Education,17.89
+238,  FURNITURE LOCAL  ,Home,Furniture,357.43
+239,Computers character,Electronics,Computers,132.55
+240,Education describe,Books,Education,281.5
+241,Wearables peace,Electronics,Wearables,98.03
+242,Computers military,Electronics,Computers,410.41
+243,Kitchen determine,Home,Kitchen,223.88
+244,Nonfiction eat,Books,Nonfiction,91.55
+245,Outdoor beautiful,Toys,Outdoor,295.59
+246,Wearables Church  ,Electronics,Wearables,387.28
+247,Kitchen away,Home,Kitchen,372.67
+248,Kids physical,Clothing,Kids,117.52
+249,Education individual,Books,Education,193.34
+250,Men worker,Clothing,Men,88.84
+251,Outdoor after,Toys,Outdoor,165.74
+252,Decor ball,Home,Decor,343.09
+253,Action daughter,Toys,Action,416.72
+254,Furniture experience,Home,Furniture,55.28
+255,Fiction actually,Books,Fiction,129.31
+256,Nonfiction father,Books,Nonfiction,80.89
+257,Men watch,Clothing,Men,376.81
+258,Learning Heart  ,Toys,Learning,370.74
+259,Audio might,Electronics,Audio,401.37
+260,Education into,Books,Education,202.58
