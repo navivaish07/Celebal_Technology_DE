@@ -1,0 +1,143 @@
+-- advanced_queries.sql
+-- Advanced Queries
+
+-- 7. Running total revenue by region
+SELECT region_code,
+       order_date,
+       ROUND(SUM(oi.quantity * oi.unit_price * (1 - oi.discount_percent / 100.0)), 2) AS daily_revenue,
+       ROUND(SUM(SUM(oi.quantity * oi.unit_price * (1 - oi.discount_percent / 100.0))) OVER (PARTITION BY region_code ORDER BY order_date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW), 2) AS running_total
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+GROUP BY region_code, order_date
+ORDER BY region_code, order_date;
+
+-- 8. Product revenue rank by category
+SELECT category,
+       product_name,
+       total_revenue,
+       DENSE_RANK() OVER (PARTITION BY category ORDER BY total_revenue DESC) AS rank_in_category
+FROM (
+    SELECT p.category,
+           p.product_name,
+           ROUND(SUM(oi.quantity * oi.unit_price * (1 - oi.discount_percent / 100.0)), 2) AS total_revenue
+    FROM order_items oi
+    JOIN products p ON oi.product_id = p.product_id
+    GROUP BY p.product_id
+)
+ORDER BY category, rank_in_category;
+
+-- 9. Customer ordering gap analysis
+SELECT customer_id,
+       order_date,
+       previous_order_date,
+       julianday(order_date) - julianday(previous_order_date) AS days_gap,
+       CASE WHEN AVG(julianday(order_date) - julianday(previous_order_date)) OVER (PARTITION BY customer_id) > 30 THEN 'At Risk' ELSE 'Healthy' END AS status
+FROM (
+    SELECT customer_id,
+           order_date,
+           LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date) AS previous_order_date
+    FROM orders
+    WHERE customer_id != 0
+)
+WHERE previous_order_date IS NOT NULL
+ORDER BY customer_id, order_date;
+
+-- 10. Monthly customer revenue segmentation
+WITH monthly_revenue AS (
+    SELECT o.customer_id,
+           strftime('%Y-%m', o.order_date) AS month,
+           SUM(oi.quantity * oi.unit_price * (1 - oi.discount_percent / 100.0)) AS revenue
+    FROM orders o
+    JOIN order_items oi ON o.order_id = oi.order_id
+    GROUP BY o.customer_id, month
+),
+categorized AS (
+    SELECT customer_id,
+           month,
+           revenue,
+           CASE
+             WHEN revenue > 10000 THEN 'High'
+             WHEN revenue >= 5000 THEN 'Medium'
+             ELSE 'Low'
+           END AS category
+    FROM monthly_revenue
+)
+SELECT month,
+       category,
+       COUNT(DISTINCT customer_id) AS customer_count
+FROM categorized
+GROUP BY month, category
+ORDER BY month DESC, category;
+
+Query failed: You can only execute one statement at a time.
+
+-- basic_queries.sql
+-- Basic Queries
+
+-- 1. Total revenue per category
+SELECT p.category,
+       ROUND(SUM(oi.quantity * oi.unit_price * (1 - oi.discount_percent / 100.0)), 2) AS revenue
+FROM order_items oi
+JOIN products p ON oi.product_id = p.product_id
+GROUP BY p.category
+ORDER BY revenue DESC;
+
+-- 2. Top 10 customers by total order value
+SELECT o.customer_id,
+       ROUND(SUM(oi.quantity * oi.unit_price * (1 - oi.discount_percent / 100.0)), 2) AS total_value
+FROM orders o
+JOIN order_items oi ON o.order_id = oi.order_id
+GROUP BY o.customer_id
+ORDER BY total_value DESC
+LIMIT 10;
+
+-- 3. Recent monthly order volume
+SELECT strftime('%Y-%m', order_date) AS month,
+       COUNT(DISTINCT order_id) AS order_count
+FROM orders
+WHERE order_date <> ''
+GROUP BY month
+ORDER BY month DESC
+LIMIT 12;
+
+Query failed: You can only execute one statement at a time.
+
+-- intermediate_queries.sql
+-- Intermediate Queries
+
+-- 4. Customers who placed orders but never had a delivered order
+SELECT DISTINCT o.customer_id
+FROM orders o
+WHERE o.customer_id != 0
+  AND EXISTS (
+      SELECT 1
+      FROM order_items oi
+      WHERE oi.order_id = o.order_id
+  )
+  AND NOT EXISTS (
+      SELECT 1
+      FROM orders od
+      WHERE od.customer_id = o.customer_id
+        AND od.status = 'DELIVERED'
+  );
+
+-- 5. Products with more returns than positive purchases
+SELECT p.product_name,
+       SUM(CASE WHEN oi.quantity < 0 THEN ABS(oi.quantity) ELSE 0 END) AS returned_qty,
+       SUM(CASE WHEN oi.quantity > 0 THEN oi.quantity ELSE 0 END) AS purchased_qty
+FROM order_items oi
+JOIN products p ON oi.product_id = p.product_id
+GROUP BY p.product_id
+HAVING returned_qty > purchased_qty
+ORDER BY returned_qty - purchased_qty DESC;
+
+-- 6. Return rate by category
+SELECT p.category,
+       ROUND(SUM(CASE WHEN oi.quantity < 0 THEN ABS(oi.quantity) ELSE 0 END) * 1.0 / NULLIF(SUM(ABS(oi.quantity)), 0), 4) AS return_rate
+FROM order_items oi
+JOIN products p ON oi.product_id = p.product_id
+GROUP BY p.category
+ORDER BY return_rate DESC;
+
+Query failed: You can only execute one statement at a time.
+

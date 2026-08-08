@@ -1,0 +1,35 @@
+Data Quality Report
+===================
+Raw orders rows: 620
+Raw products rows: 260
+Raw customers rows: 520
+Raw order_items rows: 1420
+
+Cleaning Issues
+--------------
+31 orders have missing customer_id
+No product name normalization issues found.
+Invalid emails found: 13
+Invalid order_items references: 17
+Sample invalid emails:
+ - customer_id=59 email=srobinsonexample.com
+ - customer_id=76 email=anthonyallenexample.com
+ - customer_id=126 email=laurie98example.com
+ - customer_id=165 email=fzuniga@
+ - customer_id=183 email=gonzalezlindaexample.org
+ - customer_id=204 email=barkerbriannaexample.net
+ - customer_id=243 email=mark00@
+ - customer_id=250 email=piercewilliamexample.net
+ - customer_id=311 email=owensshawnexample.com
+ - customer_id=367 email=dstewart@
+Sample invalid order_items rows:
+ - item_id=87 order_id=633
+ - item_id=167 order_id=623
+ - item_id=195 order_id=624
+ - item_id=206 order_id=628
+ - item_id=355 order_id=633
+ - item_id=387 order_id=640
+ - item_id=683 order_id=629
+ - item_id=765 order_id=640
+ - item_id=895 order_id=634
+ - item_id=937 order_id=631
